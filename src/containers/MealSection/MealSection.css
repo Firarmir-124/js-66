@@ -1,0 +1,53 @@
+.topMain {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: #d15353;
+}
+
+.topMain p {
+    margin: 0;
+    color: #fff;
+}
+
+.topMain p span {
+    display: inline-block;
+    background: #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.topMain button {
+    padding: 20px 60px;
+    border-radius: 10px;
+    background: orange;
+    border: none;
+}
+
+.bottomMain {
+    background: #007bb2;
+    height: calc(100% - 160px);
+    margin: 30px;
+    border-radius: 50px;
+    overflow-y: scroll;
+}
+
+.bottomMain::-webkit-scrollbar {
+    width: 0;
+}
+
+.btnAdd {
+    text-decoration: none;
+    color: #333;
+    background: aqua;
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: 0.2s background-color;
+}
+
+.btnAdd:hover {
+    background: rgba(0, 255, 255, 0.61);
+    color: #fff;
+}
