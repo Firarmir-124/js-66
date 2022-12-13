@@ -1,0 +1,27 @@
+.form {
+    background: #fff;
+    width: calc(100% - 30px);
+    min-height: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 30px;
+}
+
+.col select{
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+
+[name="data"]{
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+
+.col input {
+    margin-bottom: 20px;
+}
+
+[name="category"], [name="dish"] {
+    width: 100%;
+}
+
